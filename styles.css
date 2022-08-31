@@ -11,3 +11,27 @@ header {
     margin-top: 30px;
     margin-right: 20px;
 }
+
+.row {
+    padding: 15px;
+}
+
+#SeccionAD {
+    background-color: rgb(28, 29, 36);
+    text-align: left;
+    color: aliceblue;
+}
+
+#Foto-Perfil {
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px black;
+    left: 9%;
+    top: 540px;
+}
+
+#Nombre {
+    margin-top: 10%;
+    font-weight: bold;
+}
