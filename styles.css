@@ -44,6 +44,10 @@ header {
     background-color: rgb(165, 168, 179);
 }
 
+#SeccionP {
+    background-color: rgb(148, 148, 160);
+}
+
 .Box {
     padding: 15px;
     width: 40%;
