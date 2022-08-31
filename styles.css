@@ -43,3 +43,66 @@ header {
 #SeccionEd {
     background-color: rgb(165, 168, 179);
 }
+
+.Box {
+    padding: 15px;
+    width: 40%;
+    min-width: 590px;
+    position: absolute;
+}
+
+.Contenedor {
+    width: 100%;
+    padding: 30px 30px 50px;
+    background-color: rgb(4, 1, 24);
+    border-radius: 10px;
+}
+
+.Contenedor *{
+    color: aliceblue;
+}
+
+.Skills:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.Detalles {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.Menu {
+    position: relative;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+
+.Menu div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+#RDP-Menu {
+    animation: RDP-barra 2s forwards;
+}
+
+@keyframes RDP-barra {
+    100%{
+        width: 80%;
+    }
+}
+
+#DdS-Menu {
+    animation: DdS-barra 2s forwards;
+}
+
+@keyframes DdS-barra {
+    100%{
+        width: 20%;
+    }
+}
