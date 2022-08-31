@@ -1,5 +1,5 @@
 header {
-    background-color: black;
+    background-color: rgb(4, 6, 22);
 }
 
 #Titulo {
@@ -22,16 +22,20 @@ header {
     color: aliceblue;
 }
 
-#Foto-Perfil {
+#FotoPerfil {
     position: absolute;
     width: 15%;
     border-radius: 100%;
     box-shadow: 1px 1px 1px black;
-    left: 9%;
+    left: 1%;
     top: 540px;
 }
 
 #Nombre {
     margin-top: 10%;
     font-weight: bold;
+}
+
+#SeccionExpLab {
+    background-color: silver;
 }
